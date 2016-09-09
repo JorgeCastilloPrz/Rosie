@@ -37,7 +37,7 @@ import com.karumi.rosie.sample.characters.view.presenter.CharactersPresenter;
 import com.karumi.rosie.sample.characters.view.renderer.CharacterRendererBuilder;
 import com.karumi.rosie.sample.characters.view.renderer.CharactersAdapteeCollection;
 import com.karumi.rosie.sample.characters.view.viewmodel.CharacterViewModel;
-import com.karumi.rosie.view.Presenter;
+import com.karumi.rosie.annotations.Presenter;
 import com.karumi.rosie.view.paginated.ScrollToBottomListener;
 import com.pedrogomez.renderers.RVRendererAdapter;
 import com.pedrogomez.renderers.RendererBuilder;

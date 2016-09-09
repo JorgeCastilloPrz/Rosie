@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.karumi.rosie.view;
+package com.karumi.rosie.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -22,8 +22,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotation to define the designed presenter for a {@link RosieActivity} or a
- * {@link RosieFragment}
+ * Annotation to define the designed presenter for a RosieActivity or a
+ * RosieFragment
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

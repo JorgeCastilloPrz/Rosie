@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply from: './pure_java_maven_push.gradle'
+
+dependencies {
+  compile project(':rosie-annotations')
+  providedCompile 'com.google.auto.service:auto-service:1.0-rc2'
+  providedCompile 'com.google.auto:auto-common:0.6'
+  compile 'com.squareup:javapoet:1.0.0'
+}

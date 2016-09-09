@@ -16,6 +16,7 @@
 
 package com.karumi.rosie.view;
 
+import com.karumi.rosie.annotations.Presenter;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.HashSet;

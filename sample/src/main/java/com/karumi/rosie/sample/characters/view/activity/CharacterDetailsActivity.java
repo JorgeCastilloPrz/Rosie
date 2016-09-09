@@ -28,7 +28,7 @@ import com.karumi.rosie.sample.base.view.activity.MarvelActivity;
 import com.karumi.rosie.sample.characters.CharactersModule;
 import com.karumi.rosie.sample.characters.view.presenter.CharacterDetailsPresenter;
 import com.karumi.rosie.sample.characters.view.viewmodel.CharacterDetailViewModel;
-import com.karumi.rosie.view.Presenter;
+import com.karumi.rosie.annotations.Presenter;
 import com.squareup.picasso.Picasso;
 import com.victor.loading.rotate.RotateLoading;
 import java.util.Arrays;

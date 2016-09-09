@@ -31,7 +31,7 @@ import com.karumi.rosie.sample.comics.view.presenter.ComicSeriesDetailsPresenter
 import com.karumi.rosie.sample.comics.view.renderer.ComicSeriesDetailRendererBuilder;
 import com.karumi.rosie.sample.comics.view.viewmodel.ComicSeriesDetailViewModel;
 import com.karumi.rosie.sample.comics.view.viewmodel.ComicSeriesDetailsViewModel;
-import com.karumi.rosie.view.Presenter;
+import com.karumi.rosie.annotations.Presenter;
 import com.pedrogomez.renderers.ListAdapteeCollection;
 import com.pedrogomez.renderers.RVRendererAdapter;
 import com.pedrogomez.renderers.RendererBuilder;

@@ -30,7 +30,7 @@ import com.karumi.rosie.sample.comics.view.fragment.ComicSeriesFragment;
 import com.karumi.rosie.sample.main.MainModule;
 import com.karumi.rosie.sample.main.view.adapter.FragmentAdapter;
 import com.karumi.rosie.sample.main.view.presenter.FakeDataPresenter;
-import com.karumi.rosie.view.Presenter;
+import com.karumi.rosie.annotations.Presenter;
 import java.util.Arrays;
 import java.util.List;
 import javax.inject.Inject;

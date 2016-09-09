@@ -39,7 +39,7 @@ import com.karumi.rosie.sample.comics.view.presenter.ComicsSeriesPresenter;
 import com.karumi.rosie.sample.comics.view.renderer.ComicSeriesRendererBuilder;
 import com.karumi.rosie.sample.comics.view.renderer.ComicsSeriesAdapteeCollection;
 import com.karumi.rosie.sample.comics.view.viewmodel.ComicSeriesViewModel;
-import com.karumi.rosie.view.Presenter;
+import com.karumi.rosie.annotations.Presenter;
 import com.karumi.rosie.view.RosieFragment;
 import com.karumi.rosie.view.paginated.ScrollToBottomListener;
 import com.pedrogomez.renderers.RVRendererAdapter;
